@@ -7,7 +7,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>JuicyGrow</title>
+    <title>StatueOfCulture</title>
     <link rel="stylesheet" href="/styles/styles.css">
 
 </head>
@@ -15,26 +15,29 @@
 
 <div id="top-container">
     <div id="turning-head"></div>
-    <div id="stylish-btn">JOIN CULTURE CLUB</div>
+<!--    <div id="stylish-btn">JOIN CULTURE CLUB</div>-->
+    <button id="stylish-btn" class="smooth-button">JOIN CULTURE CLUB</button>
+
 </div>
 
 
 <div id="bottom-container">
 
     <div id="logos-wrapper">
-        <div id="logo-1" class="logos"></div>
-        <div id="logo-2" class="logos"></div>
-        <div id="logo-3" class="logos"></div>
-        <div id="logo-4" class="logos"></div>
-        <div id="logo-5" class="logos"></div>
-        <div id="logo-6" class="logos"></div>
-        <div id="logo-7" class="logos"></div>
-        <div id="logo-8" class="logos"></div>
+        <a id="logo-1" class="logos" href="pages/projects/project-1.php"></a>
+        <a id="logo-2" class="logos"></a>
+        <a id="logo-3" class="logos"></a>
+        <a id="logo-4" class="logos"></a>
+        <a id="logo-5" class="logos"></a>
+        <a id="logo-6" class="logos"></a>
+        <a id="logo-7" class="logos"></a>
+        <a id="logo-8" class="logos"></a>
     </div>
 
     <div id="qr-code-container">
-        <div id="qr-code" class="logos"></div>
+<!--        <div id="qr-code" class="logos"></div>-->
 
+        <a id="qr-code" class="logos" href="https://t.me/StatueofCulture"></a>
         <div id="arrow-with-text">
             <svg id="arrow-left" preserveAspectRatio="none" data-bbox="65.5 20 69 160" viewBox="65.5 20 69 160" height="200" width="200" xmlns="http://www.w3.org/2000/svg" data-type="shape" role="presentation" aria-hidden="true">
                 <g>
@@ -47,13 +50,13 @@
     </div>
 
 
-    <div id="stylish-btn-2" class="stylish-btns-class">SHOP</div>
-    <div id="stylish-btn-3" class="stylish-btns-class">ABOUT US</div>
+    <a id="stylish-btn-2" class="stylish-btns-class common-btn" href="https://t.me/StatueofCulture">SHOP</a>
+    <a id="stylish-btn-3" class="stylish-btns-class common-btn" href="./pages/about-us.php">ABOUT US</a>
 
     <div id="social-icons-container">
-        <div id="icon-1" class="social-icons"></div>
-        <div id="icon-2" class="social-icons"></div>
-        <div id="icon-3" class="social-icons"></div>
+        <a id="icon-1" class="social-icons" href="https://www.instagram.com/statueofculture/?igshid=YmMyMTA2M2Y%3D"></a>
+        <a id="icon-2" class="social-icons" href="https://www.depop.com/statueofculture/"></a>
+        <a id="icon-3" class="social-icons" href="https://www.grailed.com/statueofculture?_branch_match_id=1112866068434094352&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXTy9KzMxJTdFLLCjQy8nMy9ZPdEv2cnRLcc4tTQIAKQTGeyQAAAA%3D"></a>
     </div>
 
     <div id="copy-right">
@@ -66,5 +69,5 @@
 
 </div>
 
-
+<script src="js/scripts.js?<?php echo microtime(); ?>"></script>
 </body>
