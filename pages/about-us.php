@@ -6,7 +6,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>StatueOfCulture</title>
+    <title>About us</title>
     <link rel="stylesheet" href="/styles/styles.css">
 
 </head>
@@ -34,7 +34,7 @@
         </p>
     </div>
 
-    <a id="about-shop-btn" class="stylish-btns-class common-btn"  href="../index.php">HOME</a>
+    <a id="about-shop-btn" class="stylish-btns-class common-btn home-btn"  href="../index.php">HOME</a>
 
     <div id="social-icons-container">
         <a id="icon-1" class="social-icons" href="https://www.instagram.com/statueofculture/?igshid=YmMyMTA2M2Y%3D"></a>

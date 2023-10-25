@@ -66,6 +66,7 @@ body {
     z-index: 1;
     background-size: 60% auto;
     cursor: pointer;
+    display: block;
 }
 #logo-1{
     background-image: url(../images/stoneisland.webp);
@@ -308,7 +309,7 @@ body {
     text-decoration: none;
 }
 
-#about-shop-btn{
+.home-btn{
     width: 32vw;
     height: 6vh;
     border-radius: 14px;
@@ -331,5 +332,110 @@ body {
         height: 4vh;
         min-width: 200px;
         font-size: 35px;
+    }
+}
+/* Projects 1 page */
+#project-1-container{
+    background-image: url(../images/bottom-background.webp);
+    width: 100vw;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    background-attachment: fixed;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+#project-1-home-btn{
+    width: 6vh;
+}
+#project-1-logo{
+    background-image: url(../images/project-1-logo.webp);
+    width: 44vh;
+    margin: 6vh;
+}
+#project-1-gallery{
+    display: flex;
+    flex-direction: column;
+}
+.project-1-gallery-row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.project-1-gallery-texts-p{
+    width: 100vw;
+    color: #d5d5d5;
+    background-color: rgb(0,0,0,0.4);
+    height: 5vh;
+    font-size: 51px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1vh;
+}
+#project-1-gallery-row-1 img{
+    width: 100vw;
+    height: 20vh;
+    margin-bottom: 1vh;
+}
+#project-1-gallery-row-1-col-2 img{
+    height: 40vh;
+    object-fit: cover;
+}
+#project-1-gallery-row-3-col-1 img {
+    width: 100vw;
+    margin-bottom: 1vh;
+}
+#project-1-gallery-row-3-col-2 img{
+    margin-right: 20px;
+}
+#project-1-gallery-row-3-col-3 img{
+    margin-left: 20px;
+}
+#project-1-gallery-inner-row{
+    display:flex;
+    width: 100vw;
+    margin-bottom: 1vh;
+}
+#project-1-gallery-inner-row img{
+    width: 50vw;
+    object-fit: cover;
+    height: 47vh;
+}
+#project-1-gallery-row-2{
+    display: none;
+}
+@media only screen and (min-width: 1000px) {
+    .project-1-gallery-row{
+        flex-direction: row;
+    }
+    #project-1-gallery-text{
+        display: none;
+    }
+    #project-1-gallery-text-2{
+        display: none;
+    }
+    #project-1-gallery-row-2{
+        display: flex;
+    }
+    #project-1-gallery-row-1 img{
+        height: 470px;
+    }
+    #project-1-gallery-row-3-col-1 img{
+        height: 470px;
+    }
+    #project-1-gallery-row-2 video{
+        height: 445px;
+    }
+    #project-1-gallery-row-3 img{
+        width: 27vw;
     }
 }
