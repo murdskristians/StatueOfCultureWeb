@@ -286,7 +286,7 @@
                 height:auto;
             }
             .post_title{
-                font-size: 1.8rem;
+                font-size: 1.5rem;
             }
             .post_change_button_wrap{
                 position: static;
@@ -294,6 +294,18 @@
                 justify-content: center;
                 transform: unset;
                 margin-top:15px;
+            }
+            .top_button_wrap{
+                font-size:1rem;
+            }
+            .blog_list_wrap{
+                overflow: hidden;
+            }
+            .tag_text{
+                font-size: 1rem;
+            }
+            .post_description{
+                font-size: 1rem;
             }
 
         }
