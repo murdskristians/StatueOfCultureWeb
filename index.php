@@ -8,7 +8,9 @@
 <head>
     <meta charset="UTF-8">
     <title>StatueOfCulture</title>
-<!--    <link rel="stylesheet" href="/styles/styles.css">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--    <link rel="stylesheet" href="/styles/styles.css">-->
     <style>
         html,body{
             width:100%;
@@ -209,8 +211,9 @@
         .post_change_button_wrap{
             position: absolute;
             bottom: 0;
-            left: 25px;
+            left: 50%;
             display: flex;
+            transform: translateX(-50%);
         }
         .post_change_button{
             height:45px;
@@ -261,6 +264,38 @@
         }
         .post_gallery_btn.right:hover{
             transform: translateX(5px);
+        }
+
+        @media (max-width: 768px) {
+            .blog_post {
+                flex-direction: column;
+                width:100%;
+                height:auto;
+            }
+            .post_gallery{
+                width:100%;
+                height:330px;
+                flex:unset;
+            }
+            .post_text_block_wrap{
+                margin-top:25px;
+                padding-left:15px;
+                padding-right:15px;
+            }
+            .blog_list_wrap{
+                height:auto;
+            }
+            .post_title{
+                font-size: 1.8rem;
+            }
+            .post_change_button_wrap{
+                position: static;
+                display: flex;
+                justify-content: center;
+                transform: unset;
+                margin-top:15px;
+            }
+
         }
     </style>
 </head>
